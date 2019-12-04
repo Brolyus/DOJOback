@@ -1,0 +1,11 @@
+GET http://localhost:3000/children
+
+###
+POST http://localhost:3000/children
+Content-Type: application/json
+
+{
+  "firstname": "Marco",
+  "lastname": "Polo",
+  "kindness": 10
+}
